@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>EduX - Premier Platform for Skill Development</title>
+  <meta name="title" content="EduX - Premier Platform for Skill Development">
+  <meta name="description" content="EduX provides top-quality free educational resources and courses for skill development.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.svg" width="162" height="50" alt="EduWeb logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo.svg" width="162" height="50" alt="EduWeb logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#courses" class="navbar-link active-nav" data-nav-link>Courses</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#footer" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn" aria-label="toggle search" title="Search">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="header-action-btn" aria-label="cart" title="Cart">
+          <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+
+          <span class="btn-badge">0</span>
+        </button>
+
+        <a href="#" class="btn has-before">
+          <span class="span">Sign in</span>
+        </a>
+
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+  <!-- 
+        - #COURSE
+      -->
+
+  <section class="section course" id="courses" aria-label="course">
+    <div class="container space">
+
+      <h2 class="h2 section-title">Our Courses</h2>
+
+      <ul class="grid-list">
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/Hr5iLG7sUa0/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Chai aur Javascript | हिन्दी" class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Beginner</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37" class="card-title"
+                  target="_blank">Chai aur Javascript | हिन्दी</a>
+              </h3>
+              <a href="https://www.youtube.com/@chaiaurcode" class="card-title price" value="29" target="_blank">Credit:
+                @chaiaurcode</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">51 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/EH3vGeqeIAo/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Chai aur Javascript Backend | Hindi" class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Intermediate</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW" class="card-title"
+                  target="_blank">Chai aur Javascript Backend</a>
+              </h3>
+              <a href="https://www.youtube.com/@chaiaurcode" class="card-title price" value="29" target="_blank">Credit:
+                @chaiaurcode</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">25 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/vz1RlUyrc3w/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Chai aur react | with projects" class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Intermediate</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige" class="card-title"
+                  target="_blank">Chai aur react | with projects</a>
+              </h3>
+              <a href="https://www.youtube.com/@chaiaurcode" class="card-title price" value="29" target="_blank">Credit:
+                @chaiaurcode</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">34 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/tVzUXW6siu0/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Sigma Web Development Course - Web Development Tutorials in Hindi"
+                class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Beginner</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w" class="card-title"
+                  target="_blank">Sigma Web Development Course - Web Development Tutorials in Hindi</a>
+              </h3>
+              <a href="https://www.youtube.com/@CodeWithHarry" class="card-title price" value="29"
+                target="_blank">Credit: @CodeWithHarry</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">131 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/7wnove7K-ZQ/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Python for Beginners (Full Course) | #100DaysOfCode Programming Tutorial in Hindi"
+                class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Beginner</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg" class="card-title"
+                  target="_blank">Python for Beginners (Full Course) | #100DaysOfCode Programming Tutorial in Hindi</a>
+              </h3>
+              <a href="https://www.youtube.com/@CodeWithHarry" class="card-title price" value="29"
+                target="_blank">Credit: @CodeWithHarry</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">100 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/J7BGuuuvDDk/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="How to code blogging website for beginners using MERN Stack" class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Advance</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PLqm86YkewF6QbR7QwqYWcAbl70Zhv0JUE" class="card-title"
+                  target="_blank">How to code blogging website for beginners using MERN Stack</a>
+              </h3>
+              <a href="https://www.youtube.com/@ModernWeb" class="card-title price" value="29" target="_blank">Credit:
+                @ModernWeb</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">6 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/BSVKUk58K6U/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Object Oriented Programming (OOP) in Java Course" class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Beginner</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk" class="card-title"
+                  target="_blank">Object Oriented Programming (OOP) in Java Course</a>
+              </h3>
+              <a href="https://www.youtube.com/@KunalKushwaha" class="card-title price" value="29"
+                target="_blank">Credit: @KunalKushwaha</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">7 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/rZ41y93P2Qo/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Java + DSA + Interview Preparation Course" class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Intermediate</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ" class="card-title"
+                  target="_blank">Java + DSA + Interview Preparation Course</a>
+              </h3>
+              <a href="https://www.youtube.com/@KunalKushwaha" class="card-title price" value="29"
+                target="_blank">Credit: @KunalKushwaha</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">69 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/j-DSDvqfFUs/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Disney Clone using React Tailwind css vite" class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Advance</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PLaBeGKL1tOU0pbIVu1I3ZcBZ7BJkN0isz" class="card-title"
+                  target="_blank">Disney Clone using React Tailwind css vite</a>
+              </h3>
+              <a href="https://www.youtube.com/@tubeguruji" class="card-title price" value="29" target="_blank">Credit:
+                @tubeguruji</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">13 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/eYpXCdvKwEQ/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Database Management System Placements Series 2022" class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Inretmediate</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU" class="card-title"
+                  target="_blank">Database Management System Placements Series 2022</a>
+              </h3>
+              <a href="https://www.youtube.com/@CodeHelp" class="card-title price" value="29" target="_blank">Credit:
+                @CodeHelp</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">22 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/_TpOHMCODXo/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Operating Systems for Placements 2022" class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Beginner</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG" class="card-title"
+                  target="_blank">Operating Systems for Placements 2022</a>
+              </h3>
+              <a href="https://www.youtube.com/@CodeHelp" class="card-title price" value="29" target="_blank">Credit:
+                @CodeHelp</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">32 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/JFF2vJaN0Cw/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Computer Networks (Complete Playlist)" class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Beginner</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_" class="card-title"
+                  target="_blank">Computer Networks (Complete Playlist)</a>
+              </h3>
+              <a href="https://www.youtube.com/@GateSmashers" class="card-title price" value="29"
+                target="_blank">Credit: @GateSmashers</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">32 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/qUBHLZEtS0M/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Full Stack JavaScript Course for Beginners" class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Beginner</span>
+              <h3 class="h3">
+                <a href="https://youtu.be/qUBHLZEtS0M" class="card-title" target="_blank">Computer Networks in 1 Video
+                  for Placement | Interview Questions | Core Computer Science Resources</a>
+              </h3>
+              <a href="https://www.youtube.com/@vivekgupta3484" class="card-title price" value="29"
+                target="_blank">Credit: @vivekgupta3484</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">43 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="course-card">
+            <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+              <img src="https://img.youtube.com/vi/bPrmA1SEN2k/maxresdefault.jpg" width="370" height="220"
+                loading="lazy" alt="Deep Learning Full Course" class="img-cover">
+            </figure>
+            <div class="abs-badge">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+              <span class="span">Free</span>
+            </div>
+            <div class="card-content">
+              <span class="badge">Intermediate</span>
+              <h3 class="h3">
+                <a href="https://www.youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe" class="card-title"
+                  target="_blank">(21) Complete Machine Learning playlist - YouTube</a>
+              </h3>
+              <a href="https://www.youtube.com/@krishnaik06" class="card-title price" value="29" target="_blank">Credit:
+                @krishnaik06</a>
+              <ul class="card-meta-list">
+                <li class="card-meta-item">
+                  <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">153 Videos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+
+  </section>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
